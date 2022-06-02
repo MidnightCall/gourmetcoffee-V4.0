@@ -117,6 +117,10 @@ public class Product {
 		productPanel.add(priceLabel);
 		productPanel.add(priceField);
 
+		codeField.setHorizontalAlignment(JLabel.CENTER);
+		descriptionField.setHorizontalAlignment(JLabel.CENTER);
+		priceField.setHorizontalAlignment(JLabel.CENTER);
+
 		return productPanel;
 	}
 }

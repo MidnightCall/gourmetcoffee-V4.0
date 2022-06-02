@@ -96,17 +96,17 @@ public class CoffeeBrewer extends Product  {
 	 */
 	public JPanel getPanel() {
 		JPanel brewerPanel = new JPanel(new GridLayout(6,2));
-		brewerPanel.add(new JLabel("Code:"));
+		brewerPanel.add(new JLabel("Code:",0));
 		brewerPanel.add(new JTextField(getCode(),10));
-		brewerPanel.add(new JLabel("Description:"));
+		brewerPanel.add(new JLabel("Description:",0));
 		brewerPanel.add(new JTextField(getDescription(),10));
-		brewerPanel.add(new JLabel("Price:"));
+		brewerPanel.add(new JLabel("Price:",0));
 		brewerPanel.add(new JTextField(String.valueOf(getPrice()),10));
-		brewerPanel.add(new JLabel("Model:"));
+		brewerPanel.add(new JLabel("Model:",0));
 		brewerPanel.add(new JTextField(getModel(),10));
-		brewerPanel.add(new JLabel("Source of water:"));
+		brewerPanel.add(new JLabel("Source of water:",0));
 		brewerPanel.add(new JTextField(getWaterSupply(),10));
-		brewerPanel.add(new JLabel("Number of cups:"));
+		brewerPanel.add(new JLabel("Number of cups:",0));
 		brewerPanel.add(new JTextField(String.valueOf(getNumberOfCups()),10));
 
 		return brewerPanel; // REMOVE; USED SO THIS FILE COMPILES

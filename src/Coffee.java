@@ -146,23 +146,23 @@ public class Coffee extends Product  {
 	 */
 	public JPanel getPanel() {
 		JPanel coffeePanel = new JPanel(new GridLayout(9,2));
-		coffeePanel.add(new JLabel("Code:"));
+		coffeePanel.add(new JLabel("Code:",0));
 		coffeePanel.add(new JTextField(getCode(),10));
-		coffeePanel.add(new JLabel("Description:"));
+		coffeePanel.add(new JLabel("Description:",0));
 		coffeePanel.add(new JTextField(getDescription()));
-		coffeePanel.add(new JLabel("Price:"));
+		coffeePanel.add(new JLabel("Price:",0));
 		coffeePanel.add(new JTextField(String.valueOf(getPrice()),10));
-		coffeePanel.add(new JLabel("Origin:"));
+		coffeePanel.add(new JLabel("Origin:",0));
 		coffeePanel.add(new JTextField(getOrigin(),10));
-		coffeePanel.add(new JLabel("Roast:"));
+		coffeePanel.add(new JLabel("Roast:",0));
 		coffeePanel.add(new JTextField(getRoast(),10));
-		coffeePanel.add(new JLabel("Flavor:"));
+		coffeePanel.add(new JLabel("Flavor:",0));
 		coffeePanel.add(new JTextField(getFlavor(),10));
-		coffeePanel.add(new JLabel("Aroma:"));
+		coffeePanel.add(new JLabel("Aroma:",0));
 		coffeePanel.add(new JTextField(getAroma(),10));
-		coffeePanel.add(new JLabel("Acidity:"));
+		coffeePanel.add(new JLabel("Acidity:",0));
 		coffeePanel.add(new JTextField(getAcidity(),10));
-		coffeePanel.add(new JLabel("Body:"));
+		coffeePanel.add(new JLabel("Body:",0));
 		coffeePanel.add(new JTextField(getBody(),10));
 
 
