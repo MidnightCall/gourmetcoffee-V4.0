@@ -101,8 +101,22 @@ public class Product {
 	 */
 	public JPanel getPanel() {
 
-		/* PLACE YOUR CODE HERE */
+		JPanel productPanel = new JPanel();
+		JLabel codeLabel = new JLabel("Code:");
+		JLabel descriptionLabel = new JLabel("Description:");
+		JLabel priceLabel = new JLabel("Price:");
+		JTextField codeField = new JTextField(getCode(),10);
+		JTextField descriptionField = new JTextField(getDescription(),10);
+		JTextField priceField = new JTextField(String.valueOf(getPrice()),10);
 
-		return new JPanel(); // REMOVE; USED SO THIS FILE COMPILES
+		productPanel.setLayout(new GridLayout(3,2));
+		productPanel.add(codeLabel);
+		productPanel.add(codeField);
+		productPanel.add(descriptionLabel);
+		productPanel.add(descriptionField);
+		productPanel.add(priceLabel);
+		productPanel.add(priceField);
+
+		return productPanel;
 	}
 }
