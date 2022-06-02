@@ -13,7 +13,7 @@ import  javax.swing.*;
  * <li>the body of the product, a <code>double</li>
  * </ol>
  *
- * @author author name
+ * @author kojikoji 1310402980@qq.com
  * @version  1.0.0
  * @see Product
  */

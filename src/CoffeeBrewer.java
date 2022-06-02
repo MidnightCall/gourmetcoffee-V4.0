@@ -10,7 +10,7 @@ import  javax.swing.*;
  * <li>the capacity expressed in number of cups, a <code>int</code></li>
  * </ol>
  *
- * @author author name
+ * @author kojikoji 1310402980@qq.com
  * @version  1.0.0
  * @see Product
  */

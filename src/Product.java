@@ -10,7 +10,7 @@ import  javax.swing.*;
  * <li>the price of the product, a <code>double</code></li>
  * </ol>
  *
- * @author author name
+ * @author kojikoji 1310402980@qq.com
  * @version  1.0.0
  */
 public class Product {
